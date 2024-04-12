@@ -10,7 +10,7 @@
 
 
 ### Representation visualization
-<p align='center'><img src="images/output.gif" width=70% height=70% /></p>
+<p align='center'><img src="images/output.gif" width=25% height=25% /></p>
 The figure above visualizes the evalution of the learnt representations epoch by epoch.
 
 ## Disease Risk Estimation
