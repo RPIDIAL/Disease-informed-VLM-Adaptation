@@ -11,7 +11,7 @@
 
 ### Representation visualization
 <p align='center'><img src="images/output.gif" width=25% height=25% /></p>
-The figure above visualizes the evalution of the learnt representations epoch by epoch.
+The figure above visualizes the evalution of the learnt representations epoch by epoch. Blue: Non-COVID pneumonia samples; Orange: COVID-19 samples.
 
 ## Disease Risk Estimation
 
