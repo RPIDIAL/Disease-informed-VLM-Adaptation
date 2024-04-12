@@ -1,6 +1,8 @@
 # Disease-informed-VLM-Adaptation
 
-## Overview
+## Disease Diagnosis
+
+## Disease Risk Estimation
 
 
 ## Representation visualization
