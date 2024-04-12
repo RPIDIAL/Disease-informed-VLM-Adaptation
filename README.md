@@ -16,6 +16,8 @@ The figure above visualizes the evalution of the learnt representations epoch by
 
 Blue: Non-COVID pneumonia samples; Orange: COVID-19 samples.
 
+Red cross: text-defined prompts; rectangular (blue and orange): learnt prototypes of Non-COVID pneumonia and COVID-19.
+
 ## Disease Risk Estimation
 
 ### Framework overview
