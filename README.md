@@ -1,4 +1,4 @@
-# Disease-informed-VLM-Adaptation
+# Disease-informed VLM Adaptation
 
 ## Disease Diagnosis
 
