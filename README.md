@@ -1,7 +1,10 @@
 # Disease-informed Adaptation of Vision-Language Models
 
-This repository includes detailed information of our ``Disease-informed Adaptation`` for adapting pre-trained medical Vision-Language Models (VLMs) to ``*newly identified*`` diseases.
-The ``*MICCAI-2024 early accepted version*`` can be found [here](https://www.medrxiv.org/content/10.1101/2021.12.23.21268289v1).
+This repository includes extra detailed introduction of our ``Disease-informed Adaptation`` for adapting pre-trained medical Vision-Language Models (VLMs) to ``newly identified`` diseases.
+
+The ``MICCAI-2024 early accepted version`` can be found [here](https://www.medrxiv.org/content/10.1101/2021.12.23.21268289v1).
+
+More results and the source code will be released soon!
 
 ## Disease Diagnosis
 
