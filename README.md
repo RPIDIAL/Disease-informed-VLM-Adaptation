@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td rowspan="4">COVID-19 pneumonia</td>
-    <td> \( Des_{k=1} \)(basic) <sup id="a1">[1]</sup></td>
+    <td> $$Des_{k=1}$$ (basic) <sup id="a1">[1]</sup></td>
     <td>"A chest X-ray image of a patient with COVID-19."</td>
     <td>"A radiograph of a COVID-19 patient."</td>
     <td>"An X-ray image showing a patient diagnosed with COVID-19."</td>
