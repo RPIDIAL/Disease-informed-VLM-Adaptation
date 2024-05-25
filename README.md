@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td rowspan="4">COVID-19 pneumonia</td>
-    <td>Desc(basic)</td>
+    <td>Desc(basic) <sup id="a1">[1](#f1)</sup></td>
     <td>"A chest X-ray image of a patient with COVID-19."</td>
     <td>"A radiograph of a COVID-19 patient."</td>
     <td>"An X-ray image showing a patient diagnosed with COVID-19."</td>
@@ -42,7 +42,7 @@
   </tr>
     <tr>
     <td rowspan="4">Non-COVID-19 pneumonia</td>
-    <td>Desc(basic)</td>
+    <td>Desc(basic) <sup id="a1">[1](#f1)</sup></td>
     <td>"A chest X-ray image of a patient with pneumonia."</td>
     <td>"A radiograph displaying the lung condition of a patient diagnosed with pneumonia."</td>
     <td>"An X-ray image of a pneumonia patient."</td>
@@ -67,7 +67,7 @@
   </tr>
   <tr>
     <td rowspan="4">Healthy individuals</td>
-    <td>Desc(basic)</td>
+    <td>Desc(basic) <sup id="a1">[1](#f1)</sup></td>
     <td>"A chest X-ray image of a normal healthy individual."</td>
     <td>"A chest X-ray showing the lungs of a normal, healthy individual."</td>
     <td>"An X-ray image of the chest from a healthy individual"</td>
@@ -91,7 +91,8 @@
     <td>"The whole lung fields present as homogeneous and translucent, lacking any irregularities or opacities."</td>
   </tr>
 </table>
-
+---
+1. <a id="f1">The default prompt template setting in the previous work.</a>
 
 ### Prototype initialization
 <p align='center'><img src="images/proto_init.png" width=70% height=70% /></p>
