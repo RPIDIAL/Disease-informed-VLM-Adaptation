@@ -67,7 +67,7 @@
   </tr>
   <tr>
     <td rowspan="4">Healthy individuals</td>
-    <td>$$Des_{k=3}(basic)$$<sup id="a1">[1]</sup></td>
+    <td>$$Des_{k=3}$$<sup id="a1">[1]</sup></td>
     <td>"A chest X-ray image of a normal healthy individual."</td>
     <td>"A chest X-ray showing the lungs of a normal, healthy individual."</td>
     <td>"An X-ray image of the chest from a healthy individual"</td>
