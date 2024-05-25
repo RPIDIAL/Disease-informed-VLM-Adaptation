@@ -1,4 +1,7 @@
-# Disease-informed VLM Adaptation
+# Disease-informed Adaptation of Vision-Language Models
+
+This repository includes detailed information of our ``Disease-informed Adaptation`` for adapting pre-trained medical Vision-Language Models (VLMs) to ``*newly identified*`` diseases.
+The ``*MICCAI-2024 early accepted version*`` can be found [here](https://www.medrxiv.org/content/10.1101/2021.12.23.21268289v1).
 
 ## Disease Diagnosis
 
@@ -7,7 +10,7 @@
 
 ### Disease-informed prompts
 
-The complete set of prompt candidates for each attribute of every medical finding category is listed in the table below. Based on the disease-informed prompts (the ``Prompt candidate 1'' column) from our radiologist, we also utilized [GPT-4](https://arxiv.org/abs/2303.08774) to automatically generated the other two candidates (the ``Prompt candidate 2'' and ``Prompt candidate 3'' colums) for each descriptive attribute (texture, shape, and location) based on our predefined template. All these prompts were then manually revised with the help of a radiologist, ensuring that they are medically accurate. 
+The complete set of prompt candidates for each attribute of every medical finding category is listed in the table below. Based on the disease-informed prompts (the ``Prompt candidate 1`` column) from our radiologist, we also utilized [*GPT-4*](https://arxiv.org/abs/2303.08774) to automatically generated the other two candidates (the ``Prompt candidate 2`` and ``Prompt candidate 3`` colums) for each descriptive attribute (texture, shape, and location) based on our predefined template. All these prompts were then manually revised with the help of a radiologist, ensuring that they are medically accurate. 
 
 <table>
   <tr>
@@ -96,7 +99,7 @@ The complete set of prompt candidates for each attribute of every medical findin
 
 ------
 
-[1] <a id="f1">The default prompt template setting in the previous work, such as [MaPLe](https://arxiv.org/abs/2210.03117) and [KgCoOp](https://arxiv.org/abs/2303.13283).</a>
+[1] <a id="f1">The default prompt template setting in the previous work, such as [*MaPLe*](https://arxiv.org/abs/2210.03117) and [*KgCoOp*](https://arxiv.org/abs/2303.13283).</a>
 
 ### Prototype initialization
 <p align='center'><img src="images/proto_init.png" width=70% height=70% /></p>
