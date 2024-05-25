@@ -67,25 +67,25 @@
   </tr>
   <tr>
     <td rowspan="4">Healthy individuals</td>
-    <td>$$Des_{k=2}(basic)$$<sup id="a1">[1]</sup></td>
+    <td>$$Des_{k=3}(basic)$$<sup id="a1">[1]</sup></td>
     <td>"A chest X-ray image of a normal healthy individual."</td>
     <td>"A chest X-ray showing the lungs of a normal, healthy individual."</td>
     <td>"An X-ray image of the chest from a healthy individual"</td>
   </tr>
   <tr>
-    <td>$$Des_{k=2}(texture)$$</td>
+    <td>$$Des_{k=3}(texture)$$</td>
     <td>"No respiratory symptoms or underlying lung conditions, chest typically show clear lung fields with no areas of abnormal opacities."</td>
     <td>"In the absence of respiratory symptoms or pre-existing lung conditions, a chest X-ray generally reveals clear lung fields free from any abnormal opacities."</td>
     <td>"Without respiratory symptoms or pre-existing lung conditions, a chest X-ray typically shows clear lung fields without any abnormal opacities."</td>
   </tr>
   <tr>
-    <td>$$Des_{k=2}(shape)$$</td>
+    <td>$$Des_{k=3}(shape)$$</td>
     <td>"No hazy areas with fuzzy borders."</td>
     <td>"There are no unclear regions with blurred boundaries."</td>
     <td>"There are no indistinct areas with blurred edges."</td>
   </tr>
   <tr>
-    <td>$$Des_{k=2}(location)$$</td>
+    <td>$$Des_{k=3}(location)$$</td>
     <td>"The whole lung fields appear homogeneous and translucent without any irregularities or opacities."</td>
     <td>"The entire lungs seem uniform and translucent, devoid of any irregularities or areas of opacity."</td>
     <td>"The whole lung fields present as homogeneous and translucent, lacking any irregularities or opacities."</td>
@@ -94,7 +94,7 @@
 
 ------
 
-[1] <a id="f1">The default prompt template setting in the previous work, such as [MaPLe](https://arxiv.org/abs/2210.03117) and [KgCoOp](https://arxiv.org/abs/2303.13283).</a>
+[1] <a id="a1">The default prompt template setting in the previous work, such as [MaPLe](https://arxiv.org/abs/2210.03117) and [KgCoOp](https://arxiv.org/abs/2303.13283).</a>
 
 ### Prototype initialization
 <p align='center'><img src="images/proto_init.png" width=70% height=70% /></p>
