@@ -23,7 +23,7 @@
     <td>"An X-ray image showing a patient diagnosed with COVID-19."</td>
   </tr>
   <tr>
-    <td>$$Des_{k=1}(texture)$$</td>
+    <td><span style="white-space: nowrap;">Des<sub>k=1</sub>(basic)<sup id="a1"><a href="#f1">[1]</a></sup></span></td>
     <td>"Texture Patterns include bilateral, patchy and ground-glass opacities (GGO) in the lungs. These opacities can vary in density and distribution."</td>
     <td>"Texture patterns feature bilateral, patchy and ground-glass opacities in the lungs, which may differ in density and distribution."</td>
     <td>"Texture patterns exhibit bilateral, patchy and ground-glass opacities (GGO) in the lungs, varying in density and distribution."</td>
@@ -42,7 +42,7 @@
   </tr>
     <tr>
     <td rowspan="4">Non-COVID-19 pneumonia</td>
-    <td>$$Des_{k=2}(basic)$$[1]</sup></td>
+    <td><span style="white-space: nowrap;">Des<sub>k=2</sub>(basic)<sup id="a1"><a href="#f1">[1]</a></sup></span></td>
     <td>"A chest X-ray image of a patient with pneumonia."</td>
     <td>"A radiograph displaying the lung condition of a patient diagnosed with pneumonia."</td>
     <td>"An X-ray image of a pneumonia patient."</td>
