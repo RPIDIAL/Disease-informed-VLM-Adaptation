@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <td rowspan="4">COVID-19 pneumonia</td>
-    <td><span style="white-space: nowrap;">$$Des_{k=1}(basic)$$(basic)<sup id="a1"><a href="#f1">[1]</a></sup></span></td>
+    <td><span style="white-space: nowrap;">$$Des_{k=1}(basic)$$<sup id="a1"><a href="#f1">[1]</a></sup></span></td>
     <td>"A chest X-ray image of a patient with COVID-19."</td>
     <td>"A radiograph of a COVID-19 patient."</td>
     <td>"An X-ray image showing a patient diagnosed with COVID-19."</td>
