@@ -94,7 +94,7 @@
 
 ------
 
-1. <a id="f1">The default prompt template setting in the previous work, such as [MaPLe](https://arxiv.org/abs/2210.03117) and [KgCoOp](https://arxiv.org/abs/2303.13283).</a>
+[1] <a id="f1">The default prompt template setting in the previous work, such as [MaPLe](https://arxiv.org/abs/2210.03117) and [KgCoOp](https://arxiv.org/abs/2303.13283).</a>
 
 ### Prototype initialization
 <p align='center'><img src="images/proto_init.png" width=70% height=70% /></p>
