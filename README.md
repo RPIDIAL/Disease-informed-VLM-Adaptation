@@ -9,11 +9,11 @@
 
 <table>
   <tr>
-    <th style="width: 20%;"> Findings (Condition categories)</th>
+    <th style="width: 20%;"> Medical findings (Categories)</th>
     <th style="width: 25%;"> Attributes </th>
-    <th style="width: 25%;"> Prompt Candidate 1</th>
-    <th style="width: 25%;"> Prompt Candidate 2</th>
-    <th style="width: 25%;"> Prompt Candidate 3</th>
+    <th style="width: 25%;"> Prompt candidate 1 </th>
+    <th style="width: 25%;"> Prompt candidate 2 </th>
+    <th style="width: 25%;"> Prompt candidate 3 </th>
   </tr>
   <tr>
     <td rowspan="4">COVID-19 pneumonia</td>
