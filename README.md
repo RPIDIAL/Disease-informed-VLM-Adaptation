@@ -2,7 +2,7 @@
 
 This repository includes extra detailed introduction of our ``Disease-informed Adaptation`` for adapting pre-trained medical Vision-Language Models (VLMs) to ``newly identified`` diseases.
 
-The ``MICCAI-2024 early accepted version`` can be found [here](https://www.medrxiv.org/content/10.1101/2021.12.23.21268289v1).
+The first version of [our paper](http://arxiv.org/abs/2405.15728) is early accepted by __MICCAI 2024__.
 
 More results and the source code will be released soon!
 
