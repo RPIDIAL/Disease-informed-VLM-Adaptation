@@ -117,9 +117,5 @@ Blue: Non-COVID pneumonia samples; Orange: COVID-19 samples.
 
 Red cross: text-defined prompts; rectangular (blue and orange): learnt prototypes of Non-COVID pneumonia and COVID-19.
 
-## Disease Risk Estimation
-
-### Framework overview
-<p align='center'><img src="images/risk_estimation.png" width=70% height=70% /></p>
 
 
