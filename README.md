@@ -154,11 +154,9 @@ Please cite these papers in your publications if it helps your research:
 ```bibtex
 @article{zhang2024disease,
   title={Disease-informed Adaptation of Vision-Language Models},
-  author={Zhang, Jiajin and Wang, Ge and Kalra, Mannudeep K. and Yan, Pingkun},
-  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2024: 27th International Conference},
-  pages={},
-  year={2024},
-  organization={Springer}
+  author={Zhang, Jiajin and Wang, Ge and Kalra, Mannudeep K and Yan, Pingkun},
+  journal={arXiv preprint arXiv:2405.15728},
+  year={2024}
 }
 ```
 
