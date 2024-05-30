@@ -1,6 +1,6 @@
-# Disease-informed Adaptation of Vision-Language Models
+# Adapting Vision-Language Models to New Diseases
 
-This repository includes extra detailed information of our __Disease-informed Adaptation__ for adapting pre-trained medical Vision-Language Models (VLMs) to *newly identified* and *under represented* diseases.
+This repository includes extra detailed information of our __Disease-informed Adaptation__ for adapting pre-trained __medical Vision-Language Models (VLMs)__ to *newly identified* and/or *under represented* diseases.
 
 The first version of [our work](http://arxiv.org/abs/2405.15728) is early accepted by __MICCAI 2024__.
 
@@ -11,7 +11,7 @@ The first version of [our work](http://arxiv.org/abs/2405.15728) is early accept
 ### Proposed Framework
 <p align='center'><img src="images/github_img1.png" width=70% height=70% /></p>
 
-### Disease-informed prompts
+### Disease-informed prompt generation
 
 The complete set of prompt candidates for each attribute of every medical finding category is listed in the table below. Based on the disease-informed prompts (the ``Prompt candidate 1`` column) from our radiologist, we also utilized [*GPT-4*](https://arxiv.org/abs/2303.08774) to automatically generated the other two candidates (the ``Prompt candidate 2`` and ``Prompt candidate 3`` colums) for each descriptive attribute (texture, shape, and location) based on our predefined template. All these prompts were then manually revised with the help of a radiologist, ensuring that they are medically accurate. 
 
