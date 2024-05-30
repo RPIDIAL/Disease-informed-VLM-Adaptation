@@ -105,7 +105,7 @@ The complete set of prompt candidates for each attribute of every medical findin
 [1] <a id="f1">The default prompt template setting in the previous work, such as [*MaPLe*](https://arxiv.org/abs/2210.03117) and [*KgCoOp*](https://arxiv.org/abs/2303.13283).</a>
 
 
-### Representation visualization
+### The evolution of learned visual and linguistic representations
 <p align='center'><img src="images/output.gif" width=25% height=25% /></p>
 
 The figure above visualizes the evalution of the learnt representations epoch by epoch. 
@@ -114,83 +114,51 @@ Blue: Non-COVID pneumonia samples; Orange: COVID-19 samples.
 
 Red cross: text-defined prompts; rectangular (blue and orange): learnt prototypes of Non-COVID pneumonia and COVID-19.
 
+### More phrase grounding visualization
+<p align='center'><img src="images/github_img2.png" width=60% height=60% /></p>
+
 ## Prerequisites
 
-- Python 3.8
-- PyTorch 1.8.1+
-- A computing device with GPU
+- Python 3.9
+- PyTorch 2.3.0+cu121
+- HiggingFace transformers 4.18.0
+- peft 0.7.1
+- A computing device with GPU (>20G)
 
 ## Getting started
 
-### Installation
-
-- (Not necessary) Install [Anaconda3](https://www.anaconda.com/products/distribution)
-- Install [CUDA 11.0+](https://developer.nvidia.com/cuda-11.0-download-archive)
-- Install [PyTorch 1.12.1+](http://pytorch.org/)
-
-Noted that our code is tested based on [PyTorch 1.12.1](http://pytorch.org/)
 
 ### Dataset & Preparation
 
-The two medical image datasets used in our work are publicly available.
+The two chest X-ray image datasets used in our work are publicly available.
 
-The __Fundus__ datasets include the [REFUGE](https://refuge.grand-challenge.org/) and the [RIM](https://github.com/miag-ull/rim-one-dl). We follow the [DoFE](https://arxiv.org/pdf/2010.06208.pdf) to preprocess the datasets.
+The __COVID-x__ datasets can be found [here](https://www.kaggle.com/datasets/andyczhao/covidx-cxr2) This dataset is already preprocessed by the challenge. 
 
-The __Camelyon__ dataset is a subset from the [WILDS](https://wilds.stanford.edu/datasets/). This dataset is already preprocessed by the challenge.
-
-
-### Measure the sensitivity map of an ERM model
-
-Train and evaluate an ERM model by
-
-```bash
-python ./AAAIcodeSubmissoin__model_sensitivity_map/train_ERM.py
-```
-
-The model will be saved in `./AAAIcodeSubmissoin__model_sensitivity_map/save_dir`.
+The __COVID-sev__ dataset is can be found [here](https://data.mendeley.com/datasets/36fjrg9s69/1). We follow the [this work](https://www.nature.com/articles/s41598-022-15013-z) to preprocess the datasets.
 
 
-Measure the DoDiSS map of an ERM model by
+### Train model with Disease-informed Adaptation
 
-```bash
-python ./AAAIcodeSubmissoin__model_sensitivity_map/model_sensitivity_map.py
-```
+Source code to be released ...
 
-### Train model with Spectral Adversarial Data Mixup (SAMix)
 
-Train and evaluate the models with SADA by
+### Evaluation on the COVID-19 diagnosis/severity estimation/phrase grounding
 
-```bash
-python ./AAAIcodeSubmissoin__SADA/train_SADA.py
-```
+Source code to be released ...
 
-The key __SAMix data augmentation module__ is in 
-
-```
-./AAAIcodeSubmissoin__SADA/sada.py
-```
-
-Augmentation settings for all datasets:
-
-- `--epsilon` iteration of the checkpoint to load. #Default: 0.2
-- `--step_size` step size of the adversarial attack on the amplitude spectrum. #Default: 0.08
-- `--num_steps` batch size of the attack steps. #Default: 5
-- `--tau` settings for the early stop acceleration. #Default: 1
-- `--random_init` if or not initializing amplitude spertrums with random perturbations. #Default: True
-- `--randominit_type` type of random init type. #Default: 'normal'
-- `--criterion` loss functions to attack. #Default: 'ce', choices=['ce', 'kl']
-- `--direction` neg: standard attack || pos:inverse attack. #Default: neg, choices=['pos','neg']
 
 ## Citation
 
 Please cite these papers in your publications if it helps your research:
 
 ```bibtex
-@article{zhang2022spectral,
-  title={Spectral Adversarial MixUp for Few-Shot Unsupervised Domain Adaptation},
-  author={Zhang, Jiajin and Chao, Hanqing and Dhurandhar, Amit and Chen, Pin-Yu and Tajer, Ali and Xu, Yangyang and Yan, Pingkun},
-  journal={https://arxiv.org/abs/2309.01207},
-  year={2023}
+@article{zhang2024disease,
+  title={Disease-informed Adaptation of Vision-Language Models},
+  author={Zhang, Jiajin and Wang, Ge and Kalra, Mannudeep K. and Yan, Pingkun},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2024: 27th International Conference},
+  pages={},
+  year={2024},
+  organization={Springer}
 }
 ```
 
