@@ -115,7 +115,7 @@ Blue: Non-COVID pneumonia samples; Orange: COVID-19 samples.
 Red cross: text-defined prompts; rectangular (blue and orange): learnt prototypes of Non-COVID pneumonia and COVID-19.
 
 ### More phrase grounding visualization
-<p align='center'><img src="images/github_img2.png" width=60% height=60% /></p>
+<p align='center'><img src="images/github_img2.png" width=40% height=40% /></p>
 
 ## Prerequisites
 
