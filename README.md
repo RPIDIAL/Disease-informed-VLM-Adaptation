@@ -9,7 +9,7 @@ The first version of [our work](http://arxiv.org/abs/2405.15728) is early accept
 ## Method Overview
 
 ### Proposed Framework
-<p align='center'><img src="images/github_img1.png" width=60% height=90% /></p>
+<p align='center'><img src="images/github_img1.png" width=100% height=100% /></p>
 
 ### Disease-informed prompt generation
 
